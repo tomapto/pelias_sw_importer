@@ -1,0 +1,34 @@
+{
+  "interpolation": {
+    "client": {
+      "adapter": "http",
+      "host": "http://localhost:9999"
+    }
+  },
+  "imports": {
+    "geonames": {
+      "datapath": "/media/hdd"
+    },
+    "openstreetmap": {
+      "datapath": "/media/hdd/osm/mapzen-metro",
+      "import": [{
+        "filename": "london.osm.pbf"
+      }]
+    },
+    "openaddresses": {
+      "datapath": "~/openaddresses",
+      "files": [
+        "us-ny-nyc.csv"
+      ]
+    },
+    "polyline": {
+      "datapath": "~/polyline",
+      "files": [
+        "road_network.polylines"
+      ]
+    },
+    "whosonfirst": {
+      "datapath": "/media/hdd/whosonfirst"
+    }
+  }
+}
