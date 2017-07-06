@@ -2,6 +2,8 @@
 
 # Pelias sw importer
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tomapto/pelias_sw_importer.svg)](https://greenkeeper.io/)
+
 
 ## Overview
 
